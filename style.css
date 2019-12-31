@@ -1,0 +1,129 @@
+body {
+    color: indigo;
+    background-image: linear-gradient(white,rgb(165, 231, 233));
+    /* background-color: rgb(185, 203, 238); */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p{
+    color: teal;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    font-size: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+  }
+
+footer{
+    top: 94%;
+    width: 100%;
+    font-size: 22px;
+    color: honeydew;
+    background-color: grey;
+    padding: 10px 0px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: mediumseagreen;
+    text-shadow: white;
+}
+
+.active{
+    background-color: #4CAF50;
+
+}
+
+label {
+margin-top: 5px;
+margin-bottom: 5px;    
+display: inline-block;
+width: 120px;
+/* text-align: center; */
+/* text-align: center; */
+text-align: right;
+vertical-align: top;
+} 
+
+#lbl_mailing_list {
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    width: 230px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+#mailing_list {
+    block-size: 20px;
+    /* text-align: left;
+    align-content: left;*/
+    position: relative;
+    cursor: pointer;
+    left: -100px;
+
+}
+
+
+#submit_btn {
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 0.3em;
+
+}
+
+#reset_btn{
+    font-size: 15px;
+    border-radius: 12px;
+    margin: 0;
+    width: 70px;
+}
+
+/* #audio_player {
+    background-color: darkblue;
+    color: darkgreen;
+    
+    background: darkgreen;
+
+} */
+
+.mejs-controls,
+.mejs-mediaelement,
+.mejs-container {
+	background: black !important;
+    background-color: black !important;
+}

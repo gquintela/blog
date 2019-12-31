@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="electric.html"> Electric Guitars</a></li>
+                    <li><a href="acoustic.html"> Acoustic Guitars</a></li>
+                    <li><a href="expanded.html"> Expanded range Guitars</a></li>
+                    <li class="active"><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br><br>
+        <h1>CONTACT ME!</h1>
+        <form action="scripts/prueba.js" method="POST" id="my_form">
+            <label for="first_name">FIRST NAME</label>
+            
+            <input name="First_name" id="first_name" type="text" required placeholder="Eg. Daniel" autofocus/>
+            <br/>
+            <label for="last_name">LAST NAME</label>
+            <input name="last_name" id="last_name" type="text" required placeholder="Eg. Gildenlow"/>
+            <br/>
+            <label for="age">AGE</label>
+            <input name="age" id="age" type="number" min="0"  required placeholder="Only numbers please!"/>
+            <br/>
+            <label for="email">EMAIL</label>
+            <input name="email" id="email" type="email" required placeholder="Eg. mymail@gmail.com"/>
+            <br/>
+            <label for="comments">COMMENTS</label>
+            <textarea name="" id="comments" cols="30" rows="10" placeholder="Write your comments, please!" ></textarea>
+            <br/>
+            <label for="mailing_list" id="lbl_mailing_list">ADD TO THE MAILING LIST?</label>
+            <input type="checkbox" name="mailing_list" id="mailing_list" checked> 
+            <br/>
+            <input type="submit" value="SUBMIT" id="submit_btn">
+            <input type="reset" id="reset_btn" value="RESET">
+            <br/>
+        </form>
+        <audio src="audio/music.mp3" controls id="audio_player"></audio>
+        
+        <footer>
+            Copyright 2019
+        </footer>
+    </body>
+</html>

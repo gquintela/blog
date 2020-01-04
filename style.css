@@ -7,11 +7,37 @@ body {
     /* text-align: center; */
 }
 
+h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: mediumseagreen;
+    text-shadow: white;
+    margin-top: 55px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: mediumseagreen;
+    text-shadow: white;
+    margin-top: 45px;
+    text-align: center;
+}
+
 p{
     text-align: center;
     color: teal;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.electric_p{
+    width: 65%;
+    margin: auto;
+    padding: 0 0 50px 0;
+    color: teal;
+    text-align: center;
 }
 
 #main_img{
@@ -70,16 +96,15 @@ footer{
     
 }
 
-h1 {
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: mediumseagreen;
-    text-shadow: white;
-}
-
 .active{
     background-color: #4CAF50;
 
+}
+
+form{
+    width: fit-content;
+    margin: auto;
+    
 }
 
 label {
@@ -120,7 +145,7 @@ input {
     font-size: 15px;
     font-weight: 600;
     border-radius: 12px;
-    padding: 0.3em;
+    /* padding: 0.3em; */
 
 }
 
@@ -128,17 +153,52 @@ input {
     font-size: 15px;
     border-radius: 12px;
     margin: 0;
-    width: 70px;
+    width: 120px;
+}
+
+.btns_form{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.footer_about{
+    position: fixed;
+    top: 95%;
+
+}
+
+audio {
+    padding: 20px;
+    display: block;
+    width: 20%;
+    margin: auto;
 }
 
 .thumbs{
-    float: left;
-    /* display: block; */
     width: 200px;
+    padding: 10px;
+    float: left;
+} 
+
+.electric_section p{
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+    /* height: fit-content; */
+    /* vertical-align: center; */
+    /* line-height: 40px; */
+}
+
+.electric_section{
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px;
 }
 
 .container_guitars{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: block;;
-}
+    overflow: hidden;
+    width: 65%;
+    margin: auto;
+} 
+

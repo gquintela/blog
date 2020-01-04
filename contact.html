@@ -36,18 +36,20 @@
             <input name="email" id="email" type="email" required placeholder="Eg. mymail@gmail.com"/>
             <br/>
             <label for="comments">COMMENTS</label>
-            <textarea name="" id="comments" cols="30" rows="10" placeholder="Write your comments, please!" ></textarea>
+            <textarea name="" id="comments" cols="27" rows="15" placeholder="Write your comments, please!" ></textarea>
             <br/>
             <label for="mailing_list" id="lbl_mailing_list">ADD TO THE MAILING LIST?</label>
             <input type="checkbox" name="mailing_list" id="mailing_list" checked> 
             <br/>
-            <input type="submit" value="SUBMIT" id="submit_btn">
-            <input type="reset" id="reset_btn" value="RESET">
+            <div class="btns_form">
+                <input type="submit" value="SUBMIT" id="submit_btn">
+                <input type="reset" id="reset_btn" value="RESET">
+            </div>
             <br/>
         </form>
         <audio src="audio/music.mp3" controls id="audio_player"></audio>
         
-        <footer>
+        <footer class="footer_about">
             Copyright 2019
         </footer>
     </body>

@@ -1,10 +1,8 @@
 body {
     color: indigo;
     background-image: linear-gradient(white,rgb(165, 231, 233));
-    /* background-color: rgb(185, 203, 238); */
     margin: 0;
     padding: 0;
-    /* text-align: center; */
 }
 
 h1 {
@@ -93,18 +91,15 @@ footer{
     padding: 10px 0px;
     text-align: center;
     clear: both;
-    
 }
 
 .active{
     background-color: #4CAF50;
-
 }
 
 form{
     width: fit-content;
     margin: auto;
-    
 }
 
 label {
@@ -112,8 +107,6 @@ margin-top: 5px;
 margin-bottom: 5px;    
 display: inline-block;
 width: 120px;
-/* text-align: center; */
-/* text-align: center; */
 text-align: right;
 vertical-align: top;
 } 
@@ -127,17 +120,13 @@ input {
     width: 230px;
     margin-top: 5px;
     margin-bottom: 5px;
-    
 }
 
 #mailing_list {
     block-size: 20px;
-    /* text-align: left;
-    align-content: left;*/
     position: relative;
     cursor: pointer;
     left: -100px;
-
 }
 
 
@@ -145,8 +134,6 @@ input {
     font-size: 15px;
     font-weight: 600;
     border-radius: 12px;
-    /* padding: 0.3em; */
-
 }
 
 #reset_btn{
@@ -177,23 +164,22 @@ audio {
 
 .thumbs{
     width: 200px;
-    padding: 10px;
     float: left;
 } 
 
-.electric_section p{
-    margin: auto;
-    text-align: justify;
-    width: 80%;
-    /* height: fit-content; */
-    /* vertical-align: center; */
-    /* line-height: 40px; */
-}
+/* .electric_section p{
+} */
 
 .electric_section{
     overflow: hidden;
-    padding: 5px;
-    margin: 5px;
+
+    margin: 25px;
+    vertical-align: middle;
+
+}
+
+.electric_section img {
+    float: left;
 }
 
 .container_guitars{
@@ -202,3 +188,6 @@ audio {
     margin: auto;
 } 
 
+.clear{
+    clear: both;
+}

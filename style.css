@@ -203,29 +203,26 @@ audio {
 
 .thumbs_flexbox img{ 
     background: #333;
-    
     background: blue;
-    width: 200px;
+    width: 250px;
+    margin: auto;
 }
 
 .extended_container{
-    width: 60%;
+    width: 750px;
     margin: auto;
     display: flex;   
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.child_wrapper{
-    background: #4CAF50;
+.childs{
     padding: 10px;
     margin: 5px;
-    max-block-size: 200px;
-    flex: 0 1 10px;
-    /* flex: 0 1 100px; */
+    flex: 1 1 180px;
+    text-align: center;
 }
 
-.child_wrapper p{
-    display: inline;
-    vertical-align: text-top;
-    background: yellow;
+.extended_container .childs img{
+margin: 0px;
 }

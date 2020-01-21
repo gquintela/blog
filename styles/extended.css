@@ -100,7 +100,7 @@ footer{
 }
 
 .extended_container{
-    width: 900px;
+    width: 1200px;
     margin: auto;
     display: flex;   
     justify-content: space-between;
@@ -108,10 +108,13 @@ footer{
 }
 
 .childs{
+
     padding: 10px;
     margin: 5px;
-    flex: 1 1 480px;
+    flex: 1 1 780px;
     text-align: center;
+    align-items: baseline;
+    vertical-align: middle;
 }
 
 .extended_container .childs img{

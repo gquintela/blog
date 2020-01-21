@@ -42,9 +42,24 @@ p{
     line-height: 30px;
 }
 
+.electric_section p{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px 0;
+    color: teal;
+    font-size: 20px;
+    font-family: 'varela round', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+
 a{
+    display: inline-block;
     text-decoration: none;
     color:white;
+    vertical-align: middle;
 }
 
 .electric_p{

@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/contact.css">
         
     </head>
     <body>
@@ -14,7 +14,7 @@
                     <li><a href="index.html"> Home</a></li>
                     <li><a href="electric.html"> Electric Guitars</a></li>
                     <li><a href="acoustic.html"> Acoustic Guitars</a></li>
-                    <li><a href="expanded.html"> Expanded range Guitars</a></li>
+                    <li><a href="extended.html"> Extended range Guitars</a></li>
                     <li class="active"><a href="contact.html"> Contact</a></li>
                 </ul>
             </nav>
@@ -36,19 +36,21 @@
             <input name="email" id="email" type="email" required placeholder="Eg. mymail@gmail.com"/>
             <br/>
             <label for="comments">COMMENTS</label>
-            <textarea name="" id="comments" cols="30" rows="10" placeholder="Write your comments, please!" ></textarea>
+            <textarea name="" id="comments" cols="30" rows="15" placeholder="Write your comments, please!" ></textarea>
             <br/>
             <label for="mailing_list" id="lbl_mailing_list">ADD TO THE MAILING LIST?</label>
             <input type="checkbox" name="mailing_list" id="mailing_list" checked> 
             <br/>
-            <input type="submit" value="SUBMIT" id="submit_btn">
-            <input type="reset" id="reset_btn" value="RESET">
+            <div class="btns_form">
+                <input type="submit" value="SUBMIT" id="submit_btn">
+                <input type="reset" id="reset_btn" value="RESET">
+            </div>
             <br/>
         </form>
         <audio src="audio/music.mp3" controls id="audio_player"></audio>
         
-        <footer>
-            Copyright 2019
-        </footer>
+        <footer class="footer_about">
+                Copyright 2019 - ALL TEXT TAKEN FROM <a target="_blank" href="https://www.wikipedia.org">WIKIPEDIA</a>.
+            </footer>
     </body>
 </html>

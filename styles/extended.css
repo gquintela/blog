@@ -23,7 +23,7 @@ h3{
 }
 
 p{
-    text-align: center;
+    text-align: justify;
     color: teal;
     font-size: 20px;
     line-height: 30px;
@@ -89,34 +89,30 @@ footer{
     top: 95%;
 }
 
-.thumbs_flexbox{
-    display: inline;
+
+#main_container{
+    width: 100%;
+    margin: auto;  
 }
 
-.thumbs_flexbox img{ 
-    width: 250px;
-    padding: 15px 0;
+.flex_parent{
+    display: flex;
+    padding: 1% 0;
+    width: 70%;
     margin: auto;
 }
 
-.extended_container{
-    width: 90%;
-    margin: auto;
-    display: flex;   
-    justify-content: space-between;
-    flex-wrap: wrap;
+img {
+    width: 100%;
 }
 
-.childs{
-
-    padding: 10px;
-    margin: auto;
-    flex: 1 1 780px;
-    text-align: center;
-    align-items: baseline;
-    vertical-align: middle;
+.flexbox_thumbs{
+    flex: 4 1 20%;
 }
 
-.extended_container .childs img{
-margin: 0px;
-}   
+.flexbox_p{
+    flex: 1 4 80%;
+    align-items: center;
+    padding: 0 0 0 3%;
+}
+

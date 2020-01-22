@@ -102,12 +102,13 @@ p{
 #grid_container{
 
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(3, 1fr);
     width: 80%;
     margin: auto;
     margin-top: 40px;
-    gap: 10px;
+    margin-bottom: 40px;
+    gap: 1%;
 }
 
 p.grid_item{
@@ -120,4 +121,5 @@ a{
     text-decoration: none;
     color:white;
     margin: auto;
+    margin-left: 0;
 }

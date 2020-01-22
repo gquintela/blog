@@ -82,6 +82,7 @@ footer{
     padding: 10px 0px;
     text-align: center;
     clear: both;
+    margin-top: 20px;
 }
 
 .active{
@@ -101,7 +102,7 @@ footer{
 #intro_p{
     width: 70%;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 img {
